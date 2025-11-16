@@ -1,0 +1,78 @@
+@font-face{
+    font-family: Inter-Regular;
+    src: url("../fonts/static/Inter-Regular")
+}
+@font-face{
+    font-family: Inter-Bold;
+    src: url("../fonts/static/Inter-Bold.ttf")
+}
+@font-face{
+    font-family: Inter-SemiBold;
+    src: url("../fonts/static/Inter-SemiBold.ttf")
+}
+
+:root{
+    --Primary-color :  hsl(75, 94%, 57%);
+    --Neutral-white :  hsl(0, 0%, 100%);
+    --Neutral-gray :     hsl(0, 0%, 20%);
+    --Neutral-DarkGray : hsl(0, 0%, 12%);
+    --Neutral-OffBlack : hsl(0, 0%, 8%);
+
+
+}
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: 0;
+}
+
+body{
+
+    max-width: 100%;
+    background-color: var(--Neutral-OffBlack);
+    color:var(--Neutral-white);
+    text-align: center;
+}
+
+main{
+    display: flex; /* Faciliter d'organisations via flex */
+    justify-content: center; /* Pour que tout les elements dan mon main soit centrés */
+    align-items: center; /* CENTRER HORIZONTALEMENT */
+    margin:18px;
+    color: var(--Neutral-white);
+}
+
+.main-content{
+
+    background-color: var(--Neutral-DarkGray);
+    font-size: 14px;
+    padding: 28px 32px;
+    border-radius: 10px;
+
+}
+
+.intro{
+    line-height: 2rem;
+}
+
+.intro .avatar{
+    height: 94px;
+    width: 94px;
+    border-radius: 50%;
+
+}
+
+.intro h3{
+    font-family: Inter-Bold ;
+}
+
+.intro .location{
+    font-family: Inter-SemiBold ;
+    color: var(--Primary-color);
+}
+
+.intro .profession{
+    font-family: Inter-Regular ;
+    margin:8px 0 0;
+}
