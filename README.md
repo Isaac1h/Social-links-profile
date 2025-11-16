@@ -1,3 +1,3 @@
 # Social-links-profile
 
-J’ai développé un profil de liens sociaux en HTML et CSS dans le cadre d’un défi Frontend Mentor. En m’appuyant sur le design mobile et desktop fourni, j’ai structuré le HTML et appliqué un style fidèle au guide tout en intégrant mes ajustements. Le profil est interactif, avec effets au survol et navigation accessible au clavier, respectant la mise en page et les éléments visuels du design.
+A social links profile was created in HTML and CSS as part of a Frontend Mentor challenge. The mobile and desktop design provided served as a reference, with the HTML structured and styling applied according to the style guide while incorporating personal adjustments. The profile is interactive, featuring hover effects and keyboard-accessible navigation, respecting the layout and visual elements of the original design.
